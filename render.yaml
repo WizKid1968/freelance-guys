@@ -7,7 +7,7 @@ services:
     plan: free # Specify your Render plan (e.g., free, starter, standard). Adjust if needed.
     rootDir: frontend # Sets the root directory for commands
     buildCommand: corepack enable && yarn install && yarn build # Build command including corepack fix
-    startCommand: yarn start # Start command using the script we added
+    startCommand: yarn run start # Start command using yarn run for PnP compatibility
     # Optional: Add health check path if your app has one (e.g., '/')
     # healthCheckPath: /
     # Optional: Add environment variables if needed
