@@ -65,7 +65,8 @@
     "src/brain/Brain.ts",
     "src/brain/BrainRoute.ts",
     "src/brain/data-contracts.ts",
-    "src/brain/http-client.ts"
+    "src/brain/http-client.ts",
+    "src/internal-components/DevTools.tsx" // Exclude broken dev-only component
   ],
   "references": [
     {
